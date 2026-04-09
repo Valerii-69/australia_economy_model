@@ -1,0 +1,32 @@
+# Виртуальное окружение Python
+venv/
+env/
+ENV/
+
+# Файлы Python, которые не нужно хранить в Git
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Файлы, создаваемые Flask'ом
+instance/
+.webassets-cache
+
+# Настройки IDE (чтобы не загружать личные настройки)
+.vscode/
+.idea/
+*.swp
+
+# Файлы с секретами (если появятся)
+.env
+*.env
+
+# Логи и базы данных
+*.log
+*.db
+*.sqlite
+
+# Файлы, создаваемые при запуске на Mac или Windows
+.DS_Store
+Thumbs.db
