@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 /* ===== КНОПКИ ===== */
-button {
+a {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -31,7 +31,7 @@ button {
     transition: 0.2s;
 }
 
-button:hover {
+a:hover {
     background-color: #45a049;
 }
 
