@@ -11,22 +11,10 @@
   <div class="container">
     <div class="card">
         <h3>Привет! После скачивания app.txt измени расширение на exe,<br> запусти app.exe и в браузере набери http://localhost:5000</h3>
-          <button onclick="downloadTXT()">Скачай экономическую модель Австралии</button>
+          <a href="model/app.txt" download>Скачай экономическую модель Австралии</a>
     </div>
 </div>
-<script>
-function downloadTXT() {
-    const text = "Привет! Это мой файл.\nСоздан на сайте.";
 
-    const blob = new Blob([text], { type: "text/plain" });
-
-    const link = document.createElement("a");
-    link.href = URL.createObjectURL(blob);
-    link.download = "model/app.txt";
-
-    link.click();
-}
-</script>
 <footer><h3>© 2025 — «Занимательная математика с ИИ»</h3></footer>
 </body>
 </html>
