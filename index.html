@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="base-style.css">
 </head>
 <body>
-<header>Австралия — Лаборатория «Занимательная математика с ИИ»</header>
+<header><h3>Австралия — Лаборатория «Занимательная математика с ИИ»</h3></header>
   <div class="container">
     <div class="card">
         <h3>Привет! После скачивания app.txt измени расширение на exe,<br> запусти app.exe и в браузере набери http://localhost:5000</h3>
@@ -22,11 +22,11 @@ function downloadTXT() {
 
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = "app.txt";
+    link.download = "model/app.txt";
 
     link.click();
 }
 </script>
-<footer>© 2025 — «Занимательная математика с ИИ»</footer>
+<footer><h3>© 2025 — «Занимательная математика с ИИ»</h3></footer>
 </body>
 </html>
