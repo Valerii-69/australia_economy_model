@@ -8,6 +8,21 @@
 </head>
 <body>
 <header>Австралия — Лаборатория «Занимательная математика с ИИ»</header>
+  <button onclick="downloadTXT()">Скачать TXT</button>
+
+<script>
+function downloadTXT() {
+    const text = "Привет! Это мой файл.\nСоздан на сайте.";
+
+    const blob = new Blob([text], { type: "text/plain" });
+
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "modul/app.txt";
+
+    link.click();
+}
+</script>
 <footer>© 2025 — «Занимательная математика с ИИ»</footer>
 </body>
 </html>
