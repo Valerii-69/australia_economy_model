@@ -21,17 +21,17 @@ h1, h2, h3 {
 }
 
 /* ===== КНОПКИ ===== */
-a {
+.download-link {
+    display: inline-block;
     background-color: #4CAF50;
     color: white;
-    border: none;
     padding: 10px 15px;
     border-radius: 6px;
-    cursor: pointer;
+    text-decoration: none; /* убираем подчёркивание */
     transition: 0.2s;
 }
 
-a:hover {
+.download-link:hover {
     background-color: #45a049;
 }
 
