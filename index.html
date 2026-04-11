@@ -10,7 +10,7 @@
 <header>Австралия — Лаборатория «Занимательная математика с ИИ»</header>
   <div class="container">
     <div class="card">
-        <h1>Привет! После скачивания app.txt измени расширение на exe,<br> запусти app.exe и в браузере набери http://localhost:5000</h1>
+        <h3>Привет! После скачивания app.txt измени расширение на exe,<br> запусти app.exe и в браузере набери http://localhost:5000</h3>
           <button onclick="downloadTXT()">Скачай экономическую модель Австралии</button>
     </div>
 </div>
@@ -22,7 +22,7 @@ function downloadTXT() {
 
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = "model/app.txt";
+    link.download = "app.txt";
 
     link.click();
 }
