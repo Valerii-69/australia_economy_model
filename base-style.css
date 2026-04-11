@@ -1,1 +1,51 @@
+/* ===== СБРОС СТИЛЕЙ ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* ===== ОСНОВА СТРАНИЦЫ ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ===== ЗАГОЛОВКИ ===== */
+h1, h2, h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* ===== КНОПКИ ===== */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* ===== КОНТЕЙНЕР ===== */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ===== БЛОК-КАРТОЧКА ===== */
+.card {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
